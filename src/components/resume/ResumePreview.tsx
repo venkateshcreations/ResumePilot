@@ -150,7 +150,7 @@ function ModernTemplate({ data, id }: { data: ResumeData; id: string }) {
         )}
 
         {/* Projects */}
-        {data.projects?.length > 0 && (
+        {data.projects && data.projects.length > 0 && (
           <section>
             <SectionHeader label="Projects" />
             <div className="space-y-3">
@@ -174,7 +174,7 @@ function ModernTemplate({ data, id }: { data: ResumeData; id: string }) {
         )}
 
         {/* Certifications */}
-        {data.certifications?.length > 0 && (
+        {data.certifications && data.certifications.length > 0 && (
           <section>
             <SectionHeader label="Certifications" />
             <div className="space-y-1.5">

@@ -256,7 +256,7 @@ export default function UploadPage() {
             {/* Go to Builder CTA */}
             <div className="glass rounded-2xl p-4 border border-[var(--border-subtle)] text-center">
               <p className="text-xs text-[var(--text-secondary)] mb-3">
-                Don't have a resume yet?
+                Don&apos;t have a resume yet?
               </p>
               <Link
                 href="/builder"
@@ -322,7 +322,7 @@ export default function UploadPage() {
                   <div className="glass rounded-2xl p-10 border border-[var(--border-subtle)] text-center">
                     <Zap size={32} className="mx-auto text-[var(--text-muted)] mb-3" />
                     <p className="text-[var(--text-secondary)] text-sm">
-                      Click "Analyze with AI" to generate your report
+                      Click &quot;Analyze with AI&quot; to generate your report
                     </p>
                   </div>
                 )}

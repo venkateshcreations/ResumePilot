@@ -306,7 +306,7 @@ export default function HomePage() {
                   ))}
                 </div>
                 <p className="text-sm text-[var(--text-secondary)] leading-relaxed mb-4 italic">
-                  "{t.text}"
+                  &quot;{t.text}&quot;
                 </p>
                 <div className="border-t border-[var(--border-subtle)] pt-4">
                   <p className="text-sm font-semibold text-[var(--text-primary)]">{t.name}</p>

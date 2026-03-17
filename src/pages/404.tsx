@@ -14,7 +14,7 @@ export default function NotFoundPage() {
             Page not found
           </h1>
           <p className="text-[var(--text-secondary)] mb-8">
-            This page doesn't exist or was moved.
+            This page doesn&apos;t exist or was moved.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
