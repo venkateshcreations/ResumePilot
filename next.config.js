@@ -10,6 +10,9 @@ const nextConfig = {
     config.resolve.alias.encoding = false;
     return config;
   },
+  // GitHub Pages configuration
+  basePath: process.env.NODE_ENV === 'production' ? '/ResumePilot' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/ResumePilot' : '',
 };
 
 module.exports = nextConfig;
